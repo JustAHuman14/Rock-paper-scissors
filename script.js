@@ -6,6 +6,7 @@ document.querySelector('#btn1').addEventListener('click',()=>{
     document.head.innerHTML = `<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="shortcut icon" href="fotor-20250506135857.png" type="image/x-icon">
     <style>
         button {
             background-color: aqua;

@@ -8,6 +8,10 @@ document.querySelector('#btn1').addEventListener('click',()=>{
     <title>Rock Paper Scissors</title>
     <link rel="icon" href="fotor-20250506135857.png" type="image/x-icon">
     <style>
+        body{
+        display: flex;
+        justify-content: center;
+        }
         button {
             background-color: aqua;
             border: 2px solid;

@@ -2,6 +2,13 @@ function random() {
     return Math.random()
 }
 
+let score = {
+    wins: 0,
+    losses: 0,
+    ties: 0,
+}
+
+
 document.querySelector('#btn1').addEventListener('click',()=>{
     document.head.innerHTML = `<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +26,7 @@ document.querySelector('#btn1').addEventListener('click',()=>{
             border-radius: 50%;
             width: 80px;
             height: 80px;
-
+            margin-right: 20px;
             &:hover {
                 cursor: pointer;
             }
